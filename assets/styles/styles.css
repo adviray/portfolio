@@ -1,40 +1,48 @@
 body {
-	background: url("../images/bg.jpg") center center fixed; 
-	background-size: cover;
-	background-repeat: no-repeat;
-	font-family: 'Arvo', serif;
+  background: url("../images/bg.jpg") center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Arvo', serif;
 }
 
-h1	{
-	color: Darkorange;
-	font-size: 50px;
-	font-weight: bolder;
-	margin-bottom: 0;
+h1 {
+  color: black;
+  font-size: 60px;
+  font-weight: bolder;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-h2	{
-	color: Darkgreen;
-	font-size: 25px;
-	font-weight: bold;
-	margin-top: 0;
+h2 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
-.bio	{
-	color: Black;
-	font-size: 20px;
-	font-weight: normal;
+.bio {
+  color: #006699;
+  font-size: 18px;
+  font-weight: normal;
 }
 
-.me	{
-	height: 150px;
-	border-radius: 100%;
-	border-style: solid;
-	border-color: white;
-	margin-top: 40px;
+.me {
+  height: 350px;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: white;
 }
 
 #container {
-	width: 560px;
-	margin: 0 auto;
-	text-align: center;
+  width: 800px;
+  margin-top: 100px;
+  text-align: center;
+  margin-left: 100px;
+}
+
+#container1 {
+  width: 500px;
+  margin-top: 80px;
+  margin-left: 1050px;
 }
