@@ -1,0 +1,204 @@
+.container-fluid {
+  background-color: black;
+}
+
+#landing-page {
+  box-sizing: border-box;
+  height: 100%;
+  display: center-block;
+}
+
+.bg-img {
+  background: url(../images/bg.jpg) center center fixed;
+  background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+	filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.intro-box {
+	font-family: 'Barlow Condensed', sans-serif;
+	text-align: center;
+	padding: 10px;
+	opacity: 0.8;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  border-radius: 0px;
+  color: black;
+}
+
+.lead .btn {
+	border-radius: 0px;
+	background-color: black;
+	color: white;
+	border: 2px solid white;
+	width: 100px;
+}
+
+.nav-icon {
+  height: 40px;
+  width: 40px;
+}
+
+.navbar {
+  float: left;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;  
+  z-index: 999;
+  max-height: 65px; 
+}
+
+.navbar-brand {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 24px;
+}
+
+.navbar-nav li:focus, .navbar-nav li:hover {
+  font-size: 150%;
+}
+
+
+#clear:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#about-me, #projects, #skills, #contact {
+  box-sizing: border-box;
+  text-align: right;
+  background-color: lightgrey;
+  padding: 20px;
+  padding-top: 70px;
+  height: 100%;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 25px;
+}
+
+
+#about-me-article {
+  border: 2px solid white;
+  height: 255px;
+}
+
+#about-me-img {
+  float: left;
+  height: auto;
+  max-width: 100%;
+  border: 10px solid white;
+  margin-top: 35px;
+  border-radius: 50%;
+}
+
+.about-me-img {
+  vertical-align: center;
+  /*padding-right: 0;*/
+}
+
+.about-me-desc {
+  box-sizing: border-box;
+  float: right;
+  padding: 30px;
+}
+
+.navbar-nav .nav-link {
+  float: right;
+  padding: 5px 10px;
+  text-align: center;
+  background-color: black;
+  opacity: 0.8;
+  width: 100px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.projects-desc {
+  box-sizing: border-box;
+  float: left;
+  padding: 30px;
+}
+
+h4  {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.projects-desc > h4 > a {
+  padding-right: 0;
+}
+
+.skills-desc {
+  text-align: center;
+}
+
+[class*="col"] { 
+  float: left;
+  box-sizing: border-box;
+}
+
+form {
+  width: 90%;
+  text-align: left;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.form-group {
+  padding-left: 20px;
+}
+
+form > .btn {
+  float: right;
+  margin-left: 10px;
+  background-color: black;
+  border: 2px solid white;
+  width: 100px;
+  border-radius: 0;
+}
+
+#footer {
+  background-color: black;
+  color: white;
+  height: 50px;
+  line-height: 50px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.gototop {
+  text-align: right;
+}
+
+form a {
+  text-decoration: none ;
+}
+
+form a:hover {
+  color:white;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+@media only screen and (max-width: 400px) {
+  .about-me, .projects, .skills, .contact {
+    padding-right: 100px;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .about-me, .projects, .skills, .contact {
+    padding-right: 100px;
+  }
+}
+
+@media only screen and (min-width: 961px) {
+  .about-me, .projects, .skills, .contact {
+    padding-right: 0;
+  }
+}
