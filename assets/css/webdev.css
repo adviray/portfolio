@@ -60,6 +60,10 @@
 }
 
 .navbar-nav li:focus, .navbar-nav li:hover {
+  font-size: 125%;
+}
+
+.navbar-nav li:active {
   font-size: 150%;
 }
 
@@ -183,6 +187,12 @@ form a:hover {
   color:white;
   text-decoration:none;
   cursor:pointer;
+}
+
+form a:active {
+  color:white;
+  text-decoration:none;
+
 }
 
 @media only screen and (max-width: 400px) {
